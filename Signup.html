@@ -1,0 +1,231 @@
+<html>
+ <head>
+  <title>
+   Ministry of AYUSH
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        .left-section {
+            width: 50%;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+        .right-section {
+            width: 50%;
+            background: url('https://i.ibb.co/YkN7whn/AP1-Gcz-MFS7-UJ4s-DX5-LKUb-LQMV3-AZ2cul-Cdat-Qg-KU48vy8-AKVCA-Vmce-OQ924-I8q-Kv7u-Eu-0-X-JDu6rdy-Vm.jpg') no-repeat center center;
+            background-size: cover;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            margin-top: -20px; /* Move the header upwards */
+            background-color: #f0f0f0; /* Add grey background */
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .header img {
+            height: 50px;
+        }
+        .header .buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .header .buttons button {
+            padding: 10px 20px;
+            border: 1px solid #000;
+            background: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .header .buttons button:hover {
+            background: #e0e0e0;
+        }
+        .content {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .content .title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .content .title img {
+            height: 50px;
+        }
+        .content .title h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        .content h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .content p {
+            margin-bottom: 20px;
+        }
+        .content form {
+            display: flex;
+            flex-direction: column;
+        }
+        .content form input {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .content form label {
+            margin-bottom: 5px;
+        }
+        .content form .checkbox {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .content form .checkbox input {
+            margin-right: 10px;
+        }
+        .content form .checkbox a {
+            color: #000;
+            text-decoration: none;
+        }
+        .content form .checkbox a:hover {
+            text-decoration: underline;
+        }
+        .content form button {
+            padding: 10px;
+            background: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .content form button:hover {
+            background: #45a049;
+        }
+        .content .social-login {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .content .social-login button {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            background: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 0 10px;
+        }
+        .content .social-login button img {
+            height: 20px;
+            margin-right: 10px;
+        }
+        .content .social-login button:hover {
+            background: #f0f0f0;
+        }
+        .content .signin {
+            text-align: center;
+        }
+        .content .signin a {
+            color: #000;
+            text-decoration: none;
+        }
+        .content .signin a:hover {
+            text-decoration: underline;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="left-section">
+    <div class="header">
+     <img alt="Government of India Emblem" height="50" src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" width="50"/>
+     <div class="buttons">
+      <button>
+       Business Login
+      </button>
+      <button>
+       Admin Login
+      </button>
+     </div>
+    </div>
+    <div class="content">
+     <div class="title">
+      <img alt="Ministry of AYUSH Logo" height="50" src="https://i.ibb.co/9Y96kFp/AP1-Gcz-OVHZ5tj-V7r-r-NWRKJIc8y-Q-nd-Aos-TUZt-Vc-Pq-Vls6-Ner-Qol6-SQCS-r-J7-S-L6-0-Phblua1fq-Dl-Hl4.jpg" width="50"/>
+      <h1>
+       Ministry of AYUSH
+      </h1>
+     </div>
+     <h2>
+      Get Started Now
+     </h2>
+     <p>
+      Register your AYUSH startup using your E-mail ID
+     </p>
+     <form>
+      <label for="name">
+       Name
+      </label>
+      <input id="name" placeholder="Enter your name" type="text"/>
+      <label for="email">
+       Email address
+      </label>
+      <input id="email" placeholder="Enter your email" type="email"/>
+      <label for="password">
+       Password
+      </label>
+      <input id="password" placeholder="Enter a unique password" type="password"/>
+      <div class="checkbox">
+       <input id="terms" type="checkbox"/>
+       <label for="terms">
+        I agree to the
+        <a href="#">
+         terms &amp; policy
+        </a>
+       </label>
+      </div>
+      <button type="submit">
+       Submit
+      </button>
+     </form>
+     <div class="social-login">
+      <button>
+       <img alt="Google Logo" height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/300px-Google_%22G%22_logo.svg.png" width="20"/>
+       Sign in with Google
+      </button>
+      <button>
+       <img alt="Apple Logo" height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/976px-Apple_logo_black.svg.png" width="20"/>
+       Sign in with Apple
+      </button>
+     </div>
+     <div class="signin">
+      <p>
+       Have an account?
+       <a href="#">
+        Sign In
+       </a>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="right-section">
+   </div>
+  </div>
+ </body>
+</html>
