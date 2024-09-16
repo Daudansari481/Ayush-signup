@@ -1,0 +1,231 @@
+<html>
+ <head>
+  <title>
+   Ministry of AYUSH Login
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        .left {
+            width: 50%;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+        .right {
+            width: 50%;
+            background: url('https://i.ibb.co/YkN7whn/AP1-Gcz-MFS7-UJ4s-DX5-LKUb-LQMV3-AZ2cul-Cdat-Qg-KU48vy8-AKVCA-Vmce-OQ924-I8q-Kv7u-Eu-0-X-JDu6rdy-Vm.jpg') no-repeat center center;
+            background-size: cover;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .header img {
+            height: 50px;
+        }
+        .header button {
+            background: none;
+            border: 1px solid #000;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .header button:hover {
+            background: #f0f0f0;
+        }
+        .content {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .content h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .content h1 img {
+            margin-right: 10px;
+            height: 50px;
+        }
+        .content h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group a {
+            float: right;
+            font-size: 12px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .form-group a:hover {
+            text-decoration: underline;
+        }
+        .login-btn {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            background: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-btn:hover {
+            background: #45a049;
+        }
+        .or {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        .or::before, .or::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid #ccc;
+        }
+        .or::before {
+            margin-right: 10px;
+        }
+        .or::after {
+            margin-left: 10px;
+        }
+        .social-login {
+            display: flex;
+            justify-content: space-between;
+        }
+        .social-login button {
+            width: 48%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .social-login button i {
+            margin-right: 10px;
+        }
+        .social-login button.google {
+            background: #fff;
+        }
+        .social-login button.apple {
+            background: #000;
+            color: #fff;
+        }
+        .signup {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .signup a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .signup a:hover {
+            text-decoration: underline;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="left">
+    <div class="header">
+     <img alt="Government of India Emblem" height="50" src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" width="50"/>
+     <button>
+      Register New
+     </button>
+    </div>
+    <div class="content">
+     <h1>
+      <img alt="Ministry of AYUSH Logo" height="50" src=https://i.ibb.co/9Y96kFp/AP1-Gcz-OVHZ5tj-V7r-r-NWRKJIc8y-Q-nd-Aos-TUZt-Vc-Pq-Vls6-Ner-Qol6-SQCS-r-J7-S-L6-0-Phblua1fq-Dl-Hl4.jpg" width="50"/>
+      Ministry of AYUSH
+     </h1>
+     <h2>
+      Welcomes you
+     </h2>
+     <p>
+      Enter your Credentials to access your account
+     </p>
+     <div class="form-group">
+      <label for="ayush-id">
+       AYUSH ID
+      </label>
+      <input id="ayush-id" placeholder="Enter your ID" type="text"/>
+     </div>
+     <div class="form-group">
+      <label for="password">
+       Password
+      </label>
+      <a href="#">
+       forgot password
+      </a>
+      <input id="password" placeholder="Password" type="password"/>
+     </div>
+     <button class="login-btn">
+      Login
+     </button>
+     <div class="or">
+      Or
+     </div>
+     <div class="social-login">
+      <button class="google">
+       <i class="fab fa-google">
+       </i>
+       Sign in with Google
+      </button>
+      <button class="apple">
+       <i class="fab fa-apple">
+       </i>
+       Sign in with Apple
+      </button>
+     </div>
+     <div class="signup">
+      Don't have an account?
+      <a href="#">
+       Sign Up
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="right">
+   </div>
+  </div>
+ </body>
+</html>
